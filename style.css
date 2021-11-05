@@ -145,6 +145,7 @@ img.img_item {
 
 button {
     border:3px solid white;
+    display:block;
     border-radius: 5px;
     font-weight:bold;
     font-size:15px;
@@ -156,3 +157,12 @@ button {
     bottom: 10px;
 }
 
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%; 
+    height:50px;   
+    background-color:#1f2937;
+    color:white;
+}
