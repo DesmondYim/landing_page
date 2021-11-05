@@ -14,6 +14,11 @@
     margin-bottom: 50px;
 }
 
+.link a {
+    color:white;
+    text-decoration:none;
+}
+
 .logo {
     margin-right:auto;
 }
@@ -155,6 +160,11 @@ button {
     margin-left:auto;
     position: relative;
     bottom: 10px;
+}
+
+button a:hover {
+    background-color:darkblue;
+    color: white;
 }
 
 .footer {
