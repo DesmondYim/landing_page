@@ -64,6 +64,7 @@ header {
     font-size:36px;
     font-weight:bolder;
     color:#1f2937;
+    text-align:center;
     margin:30px;
 }
 
@@ -77,21 +78,24 @@ header {
 img.img_item {
     border-radius:10px;
     border:1px solid lightblue;
-    max-height:110px;
-    max-width:100px;
-    height:110px;
-    width:100px;
+    max-height:11em;
+    max-width:10em;
+    height:11em;
+    width:10em;
 }
 
 .img_text {
-    display:flex;
-    flex-direction:row;
+    display: flex;
     justify-content:center;
-    height:110px;
-    width:100px;
-    gap:10px;
+    gap:30px;
 }
 
+.text_item {
+    max-width: 10em;
+    width:10em;
+    height:auto;
+    text-align:center;
+}
 
 
 
