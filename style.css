@@ -1,11 +1,7 @@
 .top {
     height:300px;
-    border:5px solid green;
     background-color:#1f2937;
     color:white;
-}
-
-header {
 }
 
 .header_links {
@@ -15,19 +11,46 @@ header {
     gap:20px;
     position:relative;
     padding: 10px 50px;
+    margin-bottom: 50px;
 }
 
 .logo {
     margin-right:auto;
 }
 
-img {
+img#tree {
     height:50px;
     width:auto;
 }
 
-.link {
-    border: 1px dotted brown;
+.p1 {
+    display:flex;
+    flex-direction:row;
+    padding: 0px 50px;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.p1.text {
+    display:flex;
+    flex-direction: column;
+}
+
+.hero.primary {
+    font-size:48px;
+    font-weight:bolder;
+    color:#f9faf8
+}
+
+.hero.secondary {
+    font-size:18px;
+     color:#e6e7eb
+}
+
+img#woods {
+    height:150px;
+    width: auto;
+    float:right;
 }
 
 .bottom {
