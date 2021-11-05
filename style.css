@@ -1,7 +1,13 @@
+body {
+    width:100%;
+    height:100%;
+}
+
 .top {
     display:flex;
     width:100%;
     height:300px;
+    border:5px solid green;
     background-color:#1f2937;
     color:white;
 }
@@ -9,11 +15,16 @@
 .header_links {
     display:flex;
     justify-content:flex-end;
-    height: 20px;
-    width:100%
-    border:white;
+    height:20px;
+    width:100%;
+    border:5px solid brown;
     padding: 20px;
     background-color:yellow;
+    gap:20px;
+}
+
+.logo {
+    margin-right:auto;
 }
 
 .bottom {
