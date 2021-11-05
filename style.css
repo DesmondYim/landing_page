@@ -148,7 +148,7 @@ img.img_item {
     display:flex;
 }
 
-button {
+#button {
     border:3px solid white;
     display:block;
     border-radius: 5px;
@@ -162,8 +162,19 @@ button {
     bottom: 10px;
 }
 
-button a:hover {
+#button a{
+    text-decoration:none;
+    color:white;
+}
+
+#button a:hover {
     background-color:darkblue;
+    display:block;
+    color: white;
+}
+
+#button a:active {
+    background-color: yellow;
     color: white;
 }
 
