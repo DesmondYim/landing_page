@@ -3,6 +3,17 @@
     width:100%;
     height:300px;
     background-color:#1f2937;
+    color:white;
+}
+
+.header_links {
+    display:flex;
+    justify-content:flex-end;
+    height: 20px;
+    width:100%
+    border:white;
+    padding: 20px;
+    background-color:yellow;
 }
 
 .bottom {
