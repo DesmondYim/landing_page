@@ -4,7 +4,6 @@ body {
 }
 
 .top {
-    display:flex;
     width:100%;
     height:300px;
     border:5px solid green;
@@ -12,19 +11,32 @@ body {
     color:white;
 }
 
+header {
+    
+}
+
 .header_links {
-    display:flex;
-    justify-content:flex-end;
     height:20px;
     width:100%;
-    border:5px solid brown;
-    padding: 20px;
+    display:flex;
+    justify-content:flex-end;
     background-color:yellow;
     gap:20px;
+    position:relative;
+    margin:10px 50px;
 }
 
 .logo {
     margin-right:auto;
+}
+
+img {
+    height:50px;
+    width:auto;
+}
+
+.link {
+    border: 1px dotted brown;
 }
 
 .bottom {
